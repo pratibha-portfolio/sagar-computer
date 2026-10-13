@@ -404,6 +404,7 @@ footer .copyright .pro-links i:hover{
         display: none;
         flex-direction: column;
         align-items: stretch;
+        text-align:right;
         width: 100%;
         gap: 0;
         padding-top: 12px;
@@ -412,8 +413,10 @@ footer .copyright .pro-links i:hover{
         display: flex;
     }
     .nav-links a{
-        padding: 14px 10px;
-        border-top: 1px solid #374151;
+        text-align:right;
+        padding: 14px 20px;
+        width:100%;
+        box-sizing:border-box;
     }
     .nav-links a:hover{
         background: #1e3a8a;
